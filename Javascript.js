@@ -1,2 +1,1 @@
-document.getElementById("demo").innerHTML="This is dynamic paragraph."
-    
+console.log("Hello World");
