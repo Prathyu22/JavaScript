@@ -1,0 +1,29 @@
+1. Javascript is a client-side scripting language.
+2. To write a JS code, we need a HTML file.
+3. There is a parser inside browser which reads the HTML file that consists JS code.
+
+
+WHAT IS JAVASCRIPT ?
+---> without any additional libraries, JS is also called as "Vanilla JS".
+---> case - sensitive language.
+---> programming language which helps in making interactive web pages.
+---> interpreted and executed on the client machine.
+---> used as default scripting language for HTML.
+---> reduces the load on the server as some operation.
+
+JAVA Vs JAVASCRIPT :
+ 
+         JAVA                                      JAVASCRIPT
+1. OOP programming language.           | 1. OOP scripting language
+2. Runs on virtual machine or browser. | 2. Runs on browser only.
+3. Code is compiled before execution.  | 3. Code is interpreted/ Just In Time(JIT) compiled before execution.
+4. Static type checking.               | 4. Dynamic type checking.
+
+JS ---> Internal embedding.
+        External embedding.
+
+Javascript code must be inserted b/w the <script> tag, which could be placed in the 
+      ---> <head>
+      ---> <body>
+      ---> above/below the <html> code.  
+
