@@ -1,5 +1,5 @@
-//Implicit Conversions
-var num1 = 5;
-var num2 = num1 + 5;
-var num3 = num1 + "5";
-console.log(num3);
+//Explicit Conversions
+num1 = prompt("Enter 1st real/floating-point number: ");
+num2 = prompt("Enter 1st real/floating-point number: ");
+//String to float conversion
+alert("The sum of real numbers is "+ (parseFloat(num1) + parseFloat(num2)));
