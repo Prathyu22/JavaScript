@@ -1,1 +1,7 @@
-Alert will work same as prompt() but it gives message back.
+Operators:
+1. Arithmetic  ---> +, -, *, /, %, ++, --, -(unary minus).
+2. Assignment  ---> =, +=, -=, *=, /=, %=.
+3. Ternary     ---> variable_name = (condition) ? value1:value2
+4. String      ---> +(concatenation). 
+5. Comparision ---> ==, !=, >, <, >=, <=, ===(equal value and same type), !==(not equal value or not same type).
+6. Boolean     ---> &&, ||, !
