@@ -1,8 +1,1 @@
-Type Conversions/ Type Casting:
-DEF: A process where an entity of one data type is converted to another.
-2 Types:
-    ---> Implicit
-    ---> Explicit
-
-Explicit Conversions ---> Use JS functions like 
-                          parseInt(), parseFloat().... etc....
+Alert will work same as prompt() but it gives message back.
