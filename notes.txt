@@ -1,3 +1,18 @@
-Like "document", we have another ready made object ---> "console".
+Data Types in JS:
+1. Number    - Numeric value
+2. Boolean   - True or False
+3. String    - Characters in single/double quotes
+4. Null      - It as one specific value null
+5. Arrays    - Indexable list of items
+6. Object    - Group of attribute value pairs
+7. Special Values 
+             - NaN       - Not a Number
+             - Undefined - a declared variable is not defined.
 
-Everything in JS ends with a semi-colon.
+Variables:
+Rules:
+1. No JS keyword as variable.
+2. Do not start with a digit.
+3. Do not use spl char inside the name.
+4. Start with an aplhabet or followed by an alphabet or digits or underscore(_).
+5. Can use uppercase or lowercase.
