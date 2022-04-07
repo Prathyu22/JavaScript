@@ -1,8 +1,5 @@
-Arrays:
-
-Declaration:
-Method 1:   var array_name = ["___", "___", "___", .........];
-Method 2:   var array_name = new Array("___", "___", "___", ........);
-
-Accessing:
----> Indexing is allowed.
+Type Conversions/ Type Casting:
+DEF: A process where an entity of one data type is converted to another.
+2 Types:
+    ---> Implicit
+    ---> Explicit

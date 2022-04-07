@@ -1,3 +1,5 @@
-a = [3,4,5,6];
-console.log(typeof a); //object
-console.log(a.length); //4
+//Implicit Conversions
+var num1 = 5;
+var num2 = num1 + 5;
+var num3 = num1 + "5";
+console.log(num3);
