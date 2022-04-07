@@ -1,7 +1,72 @@
-Operators:
-1. Arithmetic  ---> +, -, *, /, %, ++, --, -(unary minus).
-2. Assignment  ---> =, +=, -=, *=, /=, %=.
-3. Ternary     ---> variable_name = (condition) ? value1:value2
-4. String      ---> +(concatenation). 
-5. Comparision ---> ==, !=, >, <, >=, <=, ===(equal value and same type), !==(not equal value or not same type).
-6. Boolean     ---> &&, ||, !
+Conditional Statements: if, if-else, if-else-if-else, switch
+
+if:
+SYNTAX:
+if{
+    _____:
+}
+
+if-else:
+SYNTAX:
+if{
+    _____;
+}
+else{
+    _____;
+}
+
+if-else-if-else:
+SYNTAX:
+if{
+    _____;
+}
+else if{
+    _____;
+}
+else{
+    _____;
+}
+
+switch:
+SYNTAX:
+switch()
+{
+    case ___:
+       break;
+    case ___:
+       break;
+    .
+    .
+    .
+    .
+    default:
+       ______;
+}
+
+
+_____________________________________________________________________
+
+Loops: for, for-in, while, do-while
+
+for:
+SYNTAX: 
+for(initialization, consition, updation)
+
+for-in:
+SYNTAX:
+---> 2 sides: 1. left side | 2. right side.
+for( variable in variable/array/....)
+
+while:
+SYNTAX:
+while(condition)
+{
+    ______;
+    updation;
+}
+
+do-while:
+SYNTAX:
+do{
+    ______;
+}while(condition);
