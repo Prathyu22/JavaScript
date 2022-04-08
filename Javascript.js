@@ -1,52 +1,33 @@
-//Named Functions
-/* Has a unique name and can be called/used in multiple places. */
-
-function addNum(a,b){
-    console.log("document.write is called");
-    return a+b;
+//named function
+function calSquare(a){
+    return a*a;
 }
 
-var d = addNum(4,3);
-console.log(d)
+console.log("Calling named function. "+ calSquare(9));
 
-//Anonymous Function
-/* can be used at only at one place. */
-var anony = function(a,b){
-    console.log("anonymous function is called.");
-    return a+b;
+//anonymous function
+var anony = function(a){
+    return a*a;
 }
-anony(5,5);
 
-setTimeout(function()
-{
-    alert("This displays after 5 seconds.");
-}, 5000);
+console.log("Calling Anonymous function. "+anony(9));
 
-//constructors
-//Anonymous function using constructor....
-var cons = new Function("a", "b", "console.log('Constructor function is called'); return a+b;");
-console.log(cons(5,5));
+//new constructor
+var cons = new Function("a","return a*a;");
+console.log("calling constructor function. "+cons(9));
 
-//Self invoking functions ---> anonymous functions.
-/*
-1. These are invoked right after the function has been defined.
-2. You can execute the code once, without declaring any global variables.
-3. No reference is maintained to this function, not even to its return value.
+//self invoking function
+(function(a){
+    console.log("calling self-invoking function 1.");
+    console.log(a*a);
+}) (9);
 
-SYNTAX:
+(function(a){
+    console.log("calling self-invoking function 2.");
+    console.log(a*a);
+} (9) );
 
-1.
-(function() {
-    //body
-} () );
-
-2.
-(function(){
-    //bosy
-}) (); 
-*/
-
-(function(a,b){
-    console.log("Self-invoking function called");
-    console.log(a+b);
-}) (2,6);
+console.log( (function(a){
+    console.log("calling self-invoking function 3.");
+    return a*a;
+}) (9));
