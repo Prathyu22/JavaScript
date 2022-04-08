@@ -1,2 +1,18 @@
-Closures:
-1. Implicit permanent link b/w the function and its scope chain.
+JSON:
+JAVA SCRIPT OBJECT NOTATION.
+---> used for the logical representation of different data.
+
+OBJECT CREATION: (object---logical entity)
+1.Creating object with NEW keyword.
+       var var_name = new Object();
+       var_name.property_name = "___";
+       var_name.property_name = "___";
+2.Creating {} with initial set of properties (attributes) with .(dot)
+       var var_name = {};
+       var_name.property_name = "___";
+       var_name.property_name = "___";
+3.Creating initial set of properties(attributes) with []
+       var var_name = {};
+       var_name['property_name'] = "___";
+4. Creating with initial set of properties(attributes) with {}
+       var var_name = { property_name: "___", property_name2: "___"};
