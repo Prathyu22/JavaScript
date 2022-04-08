@@ -1,72 +1,20 @@
-Conditional Statements: if, if-else, if-else-if-else, switch
+Functions:
 
-if:
+*** It has a keyword as "function".
 SYNTAX:
-if{
-    _____:
-}
-
-if-else:
-SYNTAX:
-if{
-    _____;
-}
-else{
-    _____;
-}
-
-if-else-if-else:
-SYNTAX:
-if{
-    _____;
-}
-else if{
-    _____;
-}
-else{
-    _____;
-}
-
-switch:
-SYNTAX:
-switch()
+1. Definition of the function.
+function name_of_the_function(parameters/arguments)
 {
-    case ___:
-       break;
-    case ___:
-       break;
-    .
-    .
-    .
-    .
-    default:
-       ______;
+    //body of the function.
 }
+2. Function calling.
+name_of_the_function(parameters/arguments).
 
+*** Return Statement:
+    ---> If a function doesn't return any value, a default value is returned which is the value "undefined".
 
-_____________________________________________________________________
-
-Loops: for, for-in, while, do-while
-
-for:
-SYNTAX: 
-for(initialization, consition, updation)
-
-for-in:
-SYNTAX:
----> 2 sides: 1. left side | 2. right side.
-for( variable in variable/array/....)
-
-while:
-SYNTAX:
-while(condition)
-{
-    ______;
-    updation;
-}
-
-do-while:
-SYNTAX:
-do{
-    ______;
-}while(condition);
+Ways of defining/calling a function...
+1. Named functions.
+2. Anonymous functions (not having any name).
+3. Self Invoking functions (func calling itself).
+4. Constructors.
