@@ -1,0 +1,2 @@
+Closures:
+1. Implicit permanent link b/w the function and its scope chain.
