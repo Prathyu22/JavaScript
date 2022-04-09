@@ -1,2 +1,10 @@
-document.getElementsByClassName("para")[0].innerHTML = "This is a paragraph from innerHTML.";
-document.getElementsByClassName("para")[0].setAttribute("style","color:Red");
+function paraClicked() {
+    document.getElementById("para").setAttribute("style","color:blue");
+}
+
+function paraMouseOver() {
+    document.getElementById("para").setAttribute("style","color:red");
+}
+
+document.getElementById("para").addEventListener("click",paraClicked);
+document.getElementById("para").addEventListener("mouseover",paraMouseOver);

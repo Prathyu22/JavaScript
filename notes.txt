@@ -24,6 +24,25 @@ What can JS do with DOM ?
 Finding Elements:
 * The document object represents your webpage.
 * To access any HTML element, you will start with accessing the document object and DOM methods to find them.
----> getElementById()
----> getElementsByClassName()
----> getElementByTagName()
+     ----------------------------
+---> | getElementById()         |
+---> | getElementsByClassName() |
+---> | getElementByTagName()    |
+     ----------------------------
+
+Event Listeners:
+Def:---> The type of event that is occuring.
+* We can attach any no. of event listeners to an element.
+---> There are 2 ways to attach event listeners for a particular element.
+
+                        WAYS
+                         |
+            ___________________________
+            |                         |
+          STATIC                    DYNAMIC 
+
+Attach event listeners with addEventListener method, dynamically.
+SYNTAX:
+       ---------------------------------------------
+      | element.addEventListener(event, function); |
+       ---------------------------------------------
