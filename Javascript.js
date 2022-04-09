@@ -66,3 +66,27 @@ Horse.displayType(); //Invertibrates
 Horse.type = "Something else";
 console.log(Horse.type); //Something else
 Horse.displayType(); //Something else
+
+//Object deletion
+//Before deletion
+var Trainer = {
+    name:"ABC",
+    subjects:["Maths","Physics","Chemistry"],
+    teaches:["F","S"],
+    age:45
+}
+
+var properties = "";
+for(p in Trainer)
+{
+    properties += p+" "
+}
+console.log("Before deletion: "+properties);
+//after deletion
+delete Trainer.age;
+properties=""
+for(p in Trainer)
+{
+    properties += p+" "
+}
+console.log("After Deletion: "+properties);
