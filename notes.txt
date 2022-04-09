@@ -1,0 +1,29 @@
+DOM - DOCUMENT OBJECT MODEL:
+---> Standard object moel and programming interface for HTML.
+---> It defines:
+     1. HTML elements as objects.
+     2. Properties of all HTML elements.
+     3. Methods to access all HTML elements.
+     4. Events for all HTML elements.
+---> DOM of the page is created by the browser, when a webpage is loaded.
+---> The HTML DOM is constructed as a tree of Objects.
+
+In DOM, every element has 3 properties:
+                      ---> 1. Style
+                           2. Text
+                           3. Events
+
+What can JS do with DOM ?
+1. JS + DOM = Dynamic HTML on client-side.
+2. Change all the HTML elements and attributes in the page.
+3. Change all the CSS styles in the page.
+4. Add and remove existing HTML elements and attributes.
+5. JS can react to all existing HTML events in the page.
+6. JS can create new HTML events in the page.
+
+Finding Elements:
+* The document object represents your webpage.
+* To access any HTML element, you will start with accessing the document object and DOM methods to find them.
+---> getElementById()
+---> getElementsByClassName()
+---> getElementByTagName()
