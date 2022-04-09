@@ -8,3 +8,7 @@ function paraMouseOver() {
 
 document.getElementById("para").addEventListener("click",paraClicked);
 document.getElementById("para").addEventListener("mouseover",paraMouseOver);
+
+function buttonClick() {
+    document.getElementById("b").setAttribute("style","color:blue");
+}

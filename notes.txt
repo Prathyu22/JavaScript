@@ -40,9 +40,14 @@ Def:---> The type of event that is occuring.
             ___________________________
             |                         |
           STATIC                    DYNAMIC 
-
+__________________________________________________________________________________________
 Attach event listeners with addEventListener method, dynamically.
 SYNTAX:
        ---------------------------------------------
       | element.addEventListener(event, function); |
        ---------------------------------------------
+
+__________________________________________________________________________________________
+Attach event handlers as HTML element attributes, Statically.
+SYNTAX:
+       <element event_listener1="func_name1();" event_listener2="func_name2();">
