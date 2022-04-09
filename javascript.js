@@ -1,14 +1,19 @@
-function paraClicked() {
-    document.getElementById("para").setAttribute("style","color:blue");
-}
+function validateForm() {
+    var name = document.getElementById("name");
+    var phno = document.getElementById("phno");
 
-function paraMouseOver() {
-    document.getElementById("para").setAttribute("style","color:red");
-}
+    if(name.value == "")
+    {
+        alert("please enter some value in name.")
+    }
 
-document.getElementById("para").addEventListener("click",paraClicked);
-document.getElementById("para").addEventListener("mouseover",paraMouseOver);
+    if(!(isNaN(name.value)))
+    {
+        alert("please enter text in name section.");
+    }
 
-function buttonClick() {
-    document.getElementById("b").setAttribute("style","color:blue");
+    if(isNaN(phno.value))
+    {
+        alert("please enter number in phno section.");
+    }
 }
