@@ -16,3 +16,12 @@ OBJECT CREATION: (object---logical entity)
        var_name['property_name'] = "___";
 4. Creating with initial set of properties(attributes) with {}
        var var_name = { property_name: "___", property_name2: "___"};
+
+5. "THIS" keyword in object creation using constructor function:
+function func_name() {
+    this.property_name = "____";
+    this.property_name = _____;
+}
+var var_name = new func_name();
+
+6. Using Object.create() Method.

@@ -39,3 +39,30 @@ function createPerson4(){
 
 var c = createPerson4();
 console.log(c.name);
+
+//method 5
+//constructor function
+function Person(){
+    this.name="Prathyusha";
+    this.age=20;
+}
+
+var p = new Person();
+console.log(p);
+console.log(p.age);
+
+//method 6
+var Animal = {
+    type:"Invertibrates",
+    displayType: function() {
+        type = this.type;
+        console.log(type);
+    }
+}
+var Horse = Object.create(Animal);
+console.log(Horse);
+console.log(Horse.type); //Invertibrates
+Horse.displayType(); //Invertibrates
+Horse.type = "Something else";
+console.log(Horse.type); //Something else
+Horse.displayType(); //Something else
