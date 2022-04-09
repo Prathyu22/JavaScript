@@ -13,3 +13,6 @@ LOCATION OBJ    HISTORY OBJ    DOCUMENT OBJ   NAVIGATOR OBJ   SCREEN OBJ
                    |                |              |
                FORMS OBJ       IMAGES OBJ       LINKS OBJ
 
+SCREEN OBJECT:
+---> It gives you the height, width, available width and available height etc...
+     "availHeight" and "availWidth" gives the height and width of the screen without being covered by the taskbar.
